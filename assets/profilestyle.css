@@ -1,0 +1,155 @@
+* {
+	font-family: 'Arial', 'Helvetic Neue', Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+	height: 100%;
+}
+
+body{
+	position: relative;
+	font-size: 16px;
+	line-height: 2em;
+	color: #777777;
+	background-image: url(images/rockywall.png);
+	min-height: 100%;
+	padding-bottom: 110px;
+}
+
+.navbar-default {
+	background-color: white;
+	border-bottom: 3px solid #cccccc;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+}
+
+h1.navbar-brand{
+	color: #4aaaa5;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	padding: 20px 30px;
+	height: 120px;
+	margin: 0 0 0 0;
+	line-height: 75px;
+}
+
+#navigation {
+	margin-top: 2.2em;
+}
+
+.bodysection {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+}
+
+.seperator2 {
+	border-top: 2px solid #ccc;
+	margin-bottom: 2em;
+}
+
+#picture {
+	float: left;
+	margin: 0 15px 15px 0;
+	max-width: 50%;
+	height: auto; 
+}
+
+.panel-default .panel-heading {
+	background-color: white;
+	border-bottom: none;
+}
+
+.page {
+	color: #4aaaa5;
+	padding: 0 0 15px 0;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.connect{
+	font-size: 1.5em;
+	text-align: center;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.seperator {
+	border-top: 2px solid #ccc;
+	margin: 20px 0 0 0;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.logos {
+	display: inline-block;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.submit {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	margin-bottom: 1em;
+}
+
+.submit:hover {
+    background-color: #5E7F7E;
+    border-color: #4aaaa5;
+    color: white;
+}
+
+.portfolioimgs {
+	position: relative;
+	display: inline-block;
+	margin: 0 15px 30px 15px;
+}
+
+.portfolio-style {
+	text-align: center;
+}
+
+.portfolio-style h1{
+	text-align: left;
+}
+
+.label {
+	position: absolute;
+	bottom: 25px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	z-index: 10;
+	font-size: 1.1em;
+	padding: .75em;
+}
+
+footer{
+	background-color: #666666 ;
+	text-align: center;
+	line-height: 100px;
+	width: 100%;
+	height: 100px;
+	color: #B6B6B4 ;
+	border-top: 10px solid #4aaaa5;
+	font-size: .7em;
+	margin-top: 1em;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	bottom: -10px;
+}
